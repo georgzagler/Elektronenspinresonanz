@@ -1,0 +1,153 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+Table1	30	4	01.05.2015 19:40:16
+geometry	maximized	active
+header	1[Y]	2[X]	3[xEr]	4[yEr]
+ColWidth	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	2.17000000000000e+01	9.90000000000000e-01	5.00000000000000e-02	5.00000000000000e-03
+1	2.34000000000000e+01	1.08000000000000e+00	5.00000000000000e-02	5.00000000000000e-03
+2	2.55000000000000e+01	1.17000000000000e+00	5.00000000000000e-02	5.00000000000000e-03
+3	2.69000000000000e+01	1.24000000000000e+00	1.00000000000000e-01	5.00000000000000e-03
+4	2.82000000000000e+01	1.30000000000000e+00	2.00000000000000e-01	5.00000000000000e-03
+5	2.99000000000000e+01	1.39000000000000e+00	3.00000000000000e-01	5.00000000000000e-03
+6	3.14000000000000e+01	1.45000000000000e+00	2.00000000000000e-01	5.00000000000000e-03
+7	3.28000000000000e+01	1.52000000000000e+00	2.00000000000000e-01	5.00000000000000e-03
+8	3.43000000000000e+01	1.59000000000000e+00	3.00000000000000e-01	5.00000000000000e-03
+9	3.63000000000000e+01	1.68000000000000e+00	2.00000000000000e-01	5.00000000000000e-03
+10	3.79000000000000e+01	1.76000000000000e+00	2.00000000000000e-01	5.00000000000000e-03
+11	3.95000000000000e+01	1.85000000000000e+00	2.00000000000000e-01	5.00000000000000e-03
+12	4.11000000000000e+01	1.91000000000000e+00	2.00000000000000e-01	5.00000000000000e-03
+13	4.26000000000000e+01	1.96000000000000e+00	3.00000000000000e-01	5.00000000000000e-03
+14	4.40000000000000e+01	2.03000000000000e+00	2.00000000000000e-01	5.00000000000000e-03
+</data>
+</table>
+<multiLayer>
+Graph1	1	1	01.05.2015 19:51:13
+geometry	0	603	1280	414	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	13	5	1253	381
+PlotTitle	Grafische Bestimmung des g-Faktors	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	I_Helmholtz [A]	f_HF [MHz]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table1_2	Table1_1	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+ErrorBars	1	Table1_2	Table1_1	Table1_4	1	8	#000000	1	1	1
+ErrorBars	1	Table1_2	Table1_1	Table1_4	1	8	#000000	1	1	1
+ErrorBars	1	Table1_2	Table1_1	Table1_3	1	8	#000000	1	1	1
+<Function>
+<Type>0</Type>
+<Title>LinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>0.99	2.03</Range>
+<Points>2</Points>
+<Constant>A	21.3552706405418</Constant>
+<Constant>B	0.402479794585468</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	20	45	0	8	5	0	0
+scale	1	20	45	0	8	5	0	0
+scale	2	0.8	2.2	0	8	5	0	0
+scale	3	0.8	2.4	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	131301
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.83972602739726</x>
+<y>44.163179916318</y>
+<right>0.932876712328767</right>
+<bottom>42.5941422594142</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1)%(1)
+\l(5)%(5)
+</Text>
+<Font>MS Shell Dlg 2	8	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<open>1</open>
+<log>
+[01.05.2015 19:54:12	Plot: ''Graph1'']
+Linear Regression of dataset: Table1_1, using function: A*x+B
+Weighting Method: Instrumental, using error bars dataset: Table1_4
+From x = 9.900000000000000e-01 to x = 2.030000000000000e+00
+B (y-intercept) = 4.024797945854677e-01 +/- 6.275888154769474e-03
+A (slope) = 2.135527064054180e+01 +/- 4.019417276897904e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.375568449197170e+03
+R^2 = 0.999366908396681
+Adjusted R^2 = 0.999261393129461
+RMSE (Root Mean Squared Error) = 37.0886566108449
+RSS (Residual Sum of Squares) = 17'882.3898395632
+---------------------------------------------------------------------------------------
+</log>

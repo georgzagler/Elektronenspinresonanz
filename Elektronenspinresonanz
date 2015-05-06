@@ -1,0 +1,23 @@
+% This file was created with JabRef 2.10.
+% Encoding: Cp1252
+
+
+@Book{Schwabl,
+  Title                    = {Quantenmechanik},
+  Author                   = {F. Schwabl},
+  Editor                   = {Springer},
+  Publisher                = {Springer},
+  Year                     = {2007},
+
+  Owner                    = {Georg},
+  Timestamp                = {2015.04.26}
+}
+
+@Proceedings{Anleitung,
+  Title                    = {Elektronenspinresonanz, Versuchsanleitung},
+  Year                     = {2015},
+
+  Owner                    = {Georg},
+  Timestamp                = {2015.04.26}
+}
+
